@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('DSC_0449.jpg'); /* 确保图片文件在正确的路径 */
+    background-size: cover; /* 使背景图片覆盖整个页面 */
+    background-position: center; /* 使背景图片居中 */
+    background-repeat: no-repeat; /* 防止背景图片重复 */
+}
+
+header {
+    background-color: rgba(0, 128, 128, 0.8); /* 半透明孔雀绿背景颜色 */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明背景颜色 */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px 0;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明背景颜色 */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0 0 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.timeline .timeline-item {
+    margin: 20px 0;
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: rgba(238, 238, 238, 0.8); /* 半透明背景颜色 */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.project-item {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* 半透明背景颜色 */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
